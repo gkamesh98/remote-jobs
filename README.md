@@ -21,6 +21,21 @@ Or You can run the application in Emulator.
 ```bash
 yarn android
 ```
+You can build the apk which is bundled by follow steps.
+## Step 1
+Run following the command in the root directory. By this it will the bundler by which you need not need to have the metro server running to run the application.
+This file will be produced in the android/app/src/main/assets/index.android.bundle
+```bash
+yarn android:debugBundle
+```
+And then you need to navigate to the android directory by using the command
+```bash
+cd android
+```
+And then you can build the bundled apk by following command. This will the apk in following relative path android\app\build\outputs\apk\debug\app-debug.apk
+```bash 
+./gradlew assembleDebug
+```
 
 ## IOS
 To start the application in the ios you need to have macOS system. And to stepup system you can step mentioned in the [React native documention](https://reactnative.dev/docs/running-on-device).

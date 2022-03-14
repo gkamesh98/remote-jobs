@@ -13,16 +13,16 @@ yarn install
 
 Now you can start the project.
 
-##Running
+## Running
 
-##Android
+## Android
 To start the application you should either have to connect your android mobile to PC and should have abd installed in the system.
 Or You can run the application in Emulator.
 ```bash
 yarn android
 ```
 
-##IOS
+## IOS
 To start the application in the ios you run it in the simultor by running the the command
 ```bash
 yarn ios

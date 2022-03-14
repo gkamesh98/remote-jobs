@@ -1,7 +1,7 @@
 # remote-jobs
 In this project we are using the endpoints from the https://github.com/remotive-io/remote-jobs-api to display a list to remote jobs in react native.
 
-##Installtion
+## Installtion
 
 Initial to set up the application you do need to install [node](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) in your local system.
 

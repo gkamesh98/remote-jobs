@@ -24,7 +24,7 @@ yarn android
 
 ## IOS
 To start the application in the ios you need to have macOS system. And to stepup system you can step mentioned in the [React native documention](https://reactnative.dev/docs/running-on-device).
-You run application in the simultor by running the the command 
+You run application in the simultor by running the following command 
 ```bash
 yarn ios
 ```

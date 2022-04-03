@@ -24,11 +24,10 @@ const InfoCard: React.FC<infoCardProp> = ({
       <Flex direction="column" style={flexStyles.detailsContainer}>
         <Text style={textStyles.companyName}>{companyName}</Text>
         <WhiteSpace size="sm" />
-
         <Text style={textStyles.title}>{title}</Text>
-        <WhiteSpace size="xs" />
 
-        <Flex>
+        <WhiteSpace size="xs" />
+        <Flex wrap="wrap">
           <Text style={textStyles.secondaryInfo}>{location}</Text>
           <WingBlank size="sm" />
           <Text style={textStyles.secondaryInfo}>{category}</Text>

@@ -17,7 +17,6 @@ export const axiosRequest = ({
   params,
   data,
 }: ApiRequest): AxiosPromise => {
-  console.log('check')
   return axiosInstance({
     url: apiUrl + endpoint,
     method,

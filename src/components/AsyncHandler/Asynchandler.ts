@@ -40,7 +40,6 @@ class AsyncHandler {
           })
           .then(successResponse => {
             const responseFormated = responseHandler(successResponse)
-            console.log(responseFormated)
             this.handleKeyBasedValue(requestKey, responseFormated)
             return responseFormated
           })
@@ -71,7 +70,6 @@ class AsyncHandler {
   ) {
     const requestKey = key ?? JSON.stringify(request)
     const keyResponse = this.getValue(requestKey)
-    console.log(requestKey, keyResponse)
     if (keyResponse) {
       return Promise.resolve(keyResponse)
     } else {

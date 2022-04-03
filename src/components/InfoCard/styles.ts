@@ -33,9 +33,9 @@ export const flexStyles = StyleSheet.create({
     marginHorizontal: 4,
   },
   detailsContainer: {
-    // flexGrow: 1,
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     marginLeft: 16,
+    flexShrink: 1,
   },
 })
